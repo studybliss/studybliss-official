@@ -58,11 +58,11 @@ button:hover{
     box-shadow: 2px 5px 7px rgba(0, 0, 0, 0.5);
     opacity: 0.8;
 }
-@media (max-width: 750px){
+@media (max-width: 900px){
 button{
     font-family: 'IBM Plex Serif', Arial;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 25px;
     color: white;
     background-color: #527755;
     border-radius: 25px;
