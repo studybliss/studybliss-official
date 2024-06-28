@@ -89,8 +89,7 @@
         font-size: 20px;
     }
     .headerlogo{
-        width: 78.33333px;
-        height: 23.33333px;
+        display: none;
     }
     .middle{
         margin-right: 0px;
