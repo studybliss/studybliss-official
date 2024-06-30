@@ -53,7 +53,7 @@
     align-items: center;
     transition: 0.15s;
 }
-.headerlogo:hover{
+.left:hover{
     opacity: 0.7;
 }
 .middle{
@@ -97,6 +97,16 @@
     .right .options{
         display: none;
     }
+    .left .home{
+        cursor:  pointer;
+        display: flex;
+        align-items: center;
+        height: 65px;
+        transition: 0.15s; 
+    }
+    .home:hover{
+        opacity: 0.5s;
+    }
     }
 .right{
     display: flex;
@@ -111,6 +121,9 @@
     align-items: center;
     height: 65px;
     transition: 0.15s;
+}
+.home{
+    display: none;
 }
 .userlogo:hover{
     opacity: 0.5;
