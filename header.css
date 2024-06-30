@@ -101,7 +101,7 @@
         cursor:  pointer;
         display: flex;
         align-items: center;
-        height: 65px;
+        height: 50px;
         transition: 0.15s; 
         margin-right: 20px;
     }
