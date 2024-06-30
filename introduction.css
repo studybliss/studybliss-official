@@ -146,6 +146,12 @@ button{
         text-align: center;
     }
 }
-
-
+.buttonoptprofile{
+    display: grid;
+    grid-template-columns: 300px;
+    column-gap: 150px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+}
 
