@@ -35,7 +35,7 @@ button{
     border-radius: 25px;
     border: 0;
     cursor: pointer;
-    height: 80px;
+    height: 100px;
     width: 300px;
     box-shadow: 2px 5px 7px rgba(0, 0, 0, 0.2);
 }
@@ -66,14 +66,6 @@ button{
     box-shadow: 2px 5px 7px rgba(0, 0, 0, 0.2);
 }
 .buttonopt{
-    display: grid;
-    grid-template-columns: 300px;
-    column-gap: 150px;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 60px;
-}
-.buttonoptsocials{
     display: grid;
     grid-template-columns: 300px;
     column-gap: 150px;
@@ -191,4 +183,31 @@ button{
     padding: 0;
     align-items: center;
 }
-
+@media (max-width: 750px){
+    .buttonoptsocials{
+        display: grid;
+        grid-template-columns: 300px;
+        column-gap: 150px;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 60px;
+    }
+    .sociallogo{
+        height: 55px;
+        width: 55px;
+        padding: 0;
+    }
+    .socialcontent{
+        display: grid;
+        grid-template-columns: 100px 150px;
+        padding-left: 20px;
+        align-items: center;
+    }
+    .socialname{
+        padding-bottom: 0px;
+    }
+    button:hover{
+        box-shadow: 2px 5px 7px rgba(0, 0, 0, 0.5);
+        opacity: 0.8;
+    }
+}
