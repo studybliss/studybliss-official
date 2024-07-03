@@ -73,6 +73,14 @@ button{
     align-items: center;
     margin-bottom: 60px;
 }
+.buttonoptsocials{
+    display: grid;
+    grid-template-columns: 300px;
+    column-gap: 150px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+}
 }
 .links{
     color: #000000;
@@ -149,6 +157,14 @@ button{
 .buttonoptprofile{
     display: grid;
     grid-template-columns: 300px;
+    column-gap: 150px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+}
+.buttonoptsocials{
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
     column-gap: 150px;
     justify-content: center;
     align-items: center;
