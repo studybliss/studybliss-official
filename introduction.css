@@ -166,7 +166,7 @@ button{
     display: grid;
     grid-template-columns: 90px 180px;
     align-items: center;
-    padding-left: 5px;
+    padding-left: 2px;
 }
 .socialname{
     padding-bottom: 0px;
