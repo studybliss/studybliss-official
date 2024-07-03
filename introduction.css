@@ -57,7 +57,7 @@ button{
     border-radius: 25px;
     border: 0;
     cursor: pointer;
-    width: 300px;
+    width: 320px;
     height: 100px;
     justify-content: middle;
     padding-top: 10px;
@@ -67,7 +67,7 @@ button{
 }
 .buttonopt{
     display: grid;
-    grid-template-columns: 300px;
+    grid-template-columns: 320px;
     column-gap: 150px;
     justify-content: center;
     align-items: center;
@@ -186,7 +186,7 @@ button{
 @media (max-width: 750px){
     .buttonoptsocials{
         display: grid;
-        grid-template-columns: 300px;
+        grid-template-columns: 320px;
         column-gap: 150px;
         justify-content: center;
         align-items: center;
