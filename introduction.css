@@ -172,9 +172,9 @@ button{
     padding-bottom: 0px;
     font-family: 'IBM Plex Serif', Arial;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 14px;
     color: white;
-    padding-left: 0px;
+    padding-left: -2px;
     line-height: 0px;
 }
 .sociallogo{
