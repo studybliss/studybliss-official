@@ -81,7 +81,7 @@ button{
     color: #527755;
 }
 .profile{
-    height: 350px;
+    height: 400px;
     width: 100%;
     margin-top: 0;
     margin-bottom: 60px;
@@ -217,5 +217,61 @@ button{
         justify-content: center;
         align-items: center;
         margin-bottom: 60px;
+    }
+}
+.indivmail{
+    height: 40px;
+    width: 40px;
+    padding-bottom: 0px;
+}
+.profilemail{
+    display: grid;
+    grid-template-columns: 50px 500px;
+    grid-template-rows: 25px;
+    column-gap: 10px;
+    padding: 0px;
+    justify-content: middle;
+    align-items: center;
+    margin-top: 35px;
+    margin-bottom: 25px;
+}
+.maillink{
+    font-family: 'IBM Plex Serif', Arial;
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+    padding-bottom: 0px;
+    text-decoration: underline;
+}
+.maillink:hover{
+    color: #8ECD94;
+}
+@media (max-width: 750px){
+    .indivmail{
+        height: 40px;
+        width: 40px;
+        padding-bottom: 0px;
+    }
+    .profilemail{
+        display: grid;
+        grid-template-columns: 50px 250px;
+        grid-template-rows: 25px;
+        column-gap: 10px;
+        padding: 0px;
+        justify-content: middle;
+        align-items: center;
+        margin-top: 35px;
+        margin-bottom: 25px;
+    }
+    .maillink{
+        font-family: 'IBM Plex Serif', Arial;
+        font-weight: bold;
+        font-size: 16px;
+        color: white;
+        padding-bottom: 0px;
+        text-decoration: underline;
+    }
+    .maillink:hover{
+        color: #8ECD94;
     }
 }
