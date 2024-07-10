@@ -340,7 +340,7 @@ button{
 }
 @media (max-width: 750px){
     .updates{
-    height: 820px;
+    height: 1000px;
     width: 100%;
     margin-top: 0;
     margin-bottom: 80px;
