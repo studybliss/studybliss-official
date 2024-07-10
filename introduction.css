@@ -148,8 +148,7 @@ button{
 }
 .buttonoptprofile{
     display: grid;
-    grid-template-columns: 300px;
-    column-gap: 150px;
+    grid-template-columns: 320px;
     justify-content: center;
     align-items: center;
     margin-bottom: 60px;
@@ -212,8 +211,7 @@ button{
     }
     .buttonoptprofile{
         display: grid;
-        grid-template-columns: 300px;
-        column-gap: 150px;
+        grid-template-columns: 320px;
         justify-content: center;
         align-items: center;
         margin-bottom: 60px;
