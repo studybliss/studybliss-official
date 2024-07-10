@@ -285,7 +285,7 @@ button{
     align-items: center;
 }
 .updates{
-    height: 750px;
+    height: 100%;
     width: 100%;
     margin-top: 0;
     margin-bottom: 80px;
@@ -371,4 +371,14 @@ button{
         grid-template-rows: 70px;
         padding-top: 20px;
     }
+}
+.sublink{
+    font-family: 'IBM Plex Serif', Arial;
+    font-weight: bold;
+    color: white;
+    padding-bottom: 0px;
+    text-decoration: underline;
+}
+.sublink:hover{
+    color: #8ECD94;
 }
