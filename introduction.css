@@ -23,7 +23,7 @@ button:hover{
     font-weight: bold;
     font-size: 30px;
     text-align: center;
-    margin-top: 45px;
+    margin-top: 15px;
 }
 button{
     font-family: 'IBM Plex Serif', Arial;
@@ -273,5 +273,97 @@ button{
     }
     .maillink:hover{
         color: #8ECD94;
+    }
+}
+.comingsoon{
+    color: #545454;
+    font-family: 'IBM Plex Serif', Arial;
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 50%;
+    margin-bottom: 50%;
+    justify-content: middle;
+    align-items: center;
+}
+.updates{
+    height: 750px;
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 80px;
+    display: grid;
+    grid-template-rows: 15% 85%;
+    grid-template-columns: 100%;
+    background: #527755;
+    border-radius: 25px;
+    box-shadow: 2px 5px 7px rgba(0, 0, 0, 0.2);
+    font-family: 'IBM Plex Serif', Arial;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+}
+.updatespfp{
+    height: 70px;
+    width: 70px;
+    border-radius: 40px;
+    margin-left: 40px;
+    border-style: solid;
+    border-color: white;
+    border-width: 3px;
+}
+.updatestop{
+    display: grid;
+    grid-template-columns: 150px 500px;
+    grid-template-rows: 70px;
+    padding-top: 20px;
+}
+.updatesprofilename{
+    display: grid;
+    grid-template-rows: 20px 40px;
+    font-family: 'IBM Plex Serif', Arial;
+    font-weight: bold;
+    font-size: 14px;
+    color: white;
+    padding-left: -5px;
+    row-gap: 15px;
+}
+.username{
+    opacity: 0.75;
+}
+.update{
+    padding-left: 40px;
+    padding-top: 0px;
+    padding-right: 40px;
+}
+.updatedate{
+    opacity: 0.75;
+}
+@media (max-width: 750px){
+    .updates{
+    height: 820px;
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 80px;
+    display: grid;
+    grid-template-rows: 100px 150px;
+    grid-template-columns: 100%;
+    background: #527755;
+    border-radius: 25px;
+    box-shadow: 2px 5px 7px rgba(0, 0, 0, 0.2);
+    font-family: 'IBM Plex Serif', Arial;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+    }
+    .username{
+        opacity: 0.75;
+        max-width: 300px;
+        font-size: 12px;
+    }
+    .updatestop{
+        display: grid;
+        grid-template-columns: 150px 500px;
+        grid-template-rows: 70px;
+        padding-top: 20px;
     }
 }
