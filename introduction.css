@@ -338,6 +338,14 @@ button{
 .updatedate{
     opacity: 0.75;
 }
+.updatesintro{
+    color: #545454;
+    font-family: 'IBM Plex Serif', Arial;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 15px;
+}
 @media (max-width: 750px){
     .updates{
         height: 100%;
