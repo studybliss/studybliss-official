@@ -111,3 +111,14 @@ button:hover{
     text-align: center;
     margin-top: 110px;
 }
+.about{
+    display: grid;
+    grid-template-columns: 300px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.about button{
+    height: 90px;
+}
