@@ -18,7 +18,7 @@
 button{
     font-family: 'IBM Plex Serif', Arial;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 25px;
     color: white;
     background-color: #527755;
     border-radius: 25px;
@@ -32,7 +32,7 @@ button{
     margin-bottom: 20px;
     box-shadow: 2px 5px 7px rgba(0, 0, 0, 0.2);
 }
-.buttonopt{
+.buttonopt, .buttonoptssc{
     display: grid;
     grid-template-columns: 300px 300px 300px;
     column-gap: 150px;
@@ -44,6 +44,7 @@ button{
     height: 55px;
     width: 55px;
     padding: 0;
+    radius: 30px;
 }
 .subjectcontent{
     display: grid;
@@ -62,7 +63,7 @@ button:hover{
 button{
     font-family: 'IBM Plex Serif', Arial;
     font-weight: bold;
-    font-size: 23px;
+    font-size: 19px;
     color: white;
     background-color: #527755;
     border-radius: 25px;
@@ -76,7 +77,7 @@ button{
     margin-bottom: 20px;
     box-shadow: 2px 5px 7px rgba(0, 0, 0, 0.2);
 }
-.buttonopt{
+.buttonopt, .buttonoptssc{
     display: grid;
     grid-template-columns: 300px;
     column-gap: 150px;
@@ -121,4 +122,37 @@ button:hover{
 }
 .about button{
     height: 90px;
+}
+.buttonoptssc button{
+    font-family: 'IBM Plex Serif', Arial;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    background-color: #527755;
+    border-radius: 25px;
+    border: 0;
+    cursor: pointer;
+    width: 300px;
+    height: 80px;
+    justify-content: middle;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    box-shadow: 2px 5px 7px rgba(0, 0, 0, 0.2);
+}
+.buttonoptssc .subjectimg{
+    height: 50px;
+    width: 50px;
+    padding: 0;
+    border-radius: 25px;
+}
+.buttonoptssc .subjectcontent{
+    display: grid;
+    grid-template-columns: 80px 150px;
+    padding-left: 20px;
+    align-items: center;
+    justify-content: middle;
+}
+.buttonoptssc .subjectname{
+    padding-bottom: 0px;
 }
