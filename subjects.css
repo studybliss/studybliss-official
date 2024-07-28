@@ -44,7 +44,7 @@ button{
     height: 55px;
     width: 55px;
     padding: 0;
-    radius: 30px;
+    border-radius: 30px;
 }
 .subjectcontent{
     display: grid;
