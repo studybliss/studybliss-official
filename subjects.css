@@ -5,7 +5,7 @@
     font-size: 40px;
     text-align: center;
     margin-top: 110px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 .text{
     color: #545454;
@@ -155,4 +155,13 @@ button:hover{
 }
 .buttonoptssc .subjectname{
     padding-bottom: 0px;
+}
+.patrons{
+    color: #545454;
+    font-family: 'IBM Plex Serif', Arial;
+    font-weight: bold;
+    font-size: 23px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
 }

@@ -7,6 +7,15 @@
     margin-top: 110px;
     margin-bottom: 30px;
 }
+.patrons{
+    color: #545454;
+    font-family: 'IBM Plex Serif', Arial;
+    font-weight: bold;
+    font-size: 23px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
 button{
     font-family: 'IBM Plex Serif', Arial;
     font-weight: bold;
